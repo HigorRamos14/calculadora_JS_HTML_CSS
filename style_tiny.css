@@ -29,7 +29,7 @@ p {
 
 #num1{
     position: absolute;
-    left: 15%;
+    left: 20%;
     top: 39%;
     border: none;
     border-radius: 5px;
@@ -39,7 +39,7 @@ p {
 }
 #num2{
     position: absolute;
-    left: 15%;
+    left: 20%;
     top: 49%;
     border: none;
     border-radius: 5px;
@@ -50,7 +50,7 @@ p {
 button{
     position: absolute;
     left: 25%;
-    top: 60%;
+    top: 69%;
     background-color: #5000ca;
     color: aliceblue;
     border-radius: 20px;

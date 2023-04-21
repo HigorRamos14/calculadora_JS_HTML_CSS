@@ -127,3 +127,7 @@ label :hover{
 #selection input[type="radio"]:checked {
     background-color: #5000ca;
   }
+
+#radio-sub{
+    padding-left: 20px;
+}

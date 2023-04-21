@@ -9,7 +9,7 @@ body{
     border: 2px solid  mintcream;
     border-radius: 10px;
     top: 10%;
-    left: 9%;
+    left: 14%;
     box-shadow:8px 7.6px 3.7px rgba(0, 0, 0, 0.082),
     20.2px 19.3px 9.5px rgba(0, 0, 0, 0.102),
     41.3px 39.3px 19.3px rgba(0, 0, 0, 0.108),
@@ -67,7 +67,7 @@ button:hover{
 
 #selection{
     position: absolute;
-    top: 75%;
+    top: 60%;
     left: 7%;
     border: 2px solid  mintcream;
     border-radius: 15px;

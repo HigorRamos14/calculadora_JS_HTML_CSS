@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(223, 219, 219);
+    margin: 0;
+}
+
+#container{
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    border: 2px solid  mintcream;
+    border-radius: 10px;
+    top: 25%;
+    left: 40%;
+    box-shadow:8px 7.6px 3.7px rgba(0, 0, 0, 0.082),
+    20.2px 19.3px 9.5px rgba(0, 0, 0, 0.102),
+    41.3px 39.3px 19.3px rgba(0, 0, 0, 0.108),
+    85px 81px 39.8px rgba(0, 0, 0, 0.103),
+    233px 222px 109px rgba(0, 0, 0, 0.07);
+    background-color: mintcream;
+}
+p {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#num1{
+    position: absolute;
+    left: 23%;
+    top: 30%;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    height: 20px;
+
+}
+#num2{
+    position: absolute;
+    left: 23%;
+    top: 40%;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    height: 20px;
+}
+
+button{
+    position: absolute;
+    left: 31%;
+    top: 60%;
+    background-color: #5000ca;
+    color: aliceblue;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    width: 120px;
+}
+
+button:hover{
+    background-color: #321065;
+    cursor: pointer;
+
+}
+
+#selection{
+    position: absolute;
+    top: 75%;
+    left: 33%;
+    border: 2px solid  mintcream;
+    border-radius: 15px;
+    width: 605px;
+    height: 80px;
+    box-shadow:8px 7.6px 3.7px rgba(0, 0, 0, 0.082),
+    20.2px 19.3px 9.5px rgba(0, 0, 0, 0.102),
+    41.3px 39.3px 19.3px rgba(0, 0, 0, 0.108),
+    85px 81px 39.8px rgba(0, 0, 0, 0.103),
+    233px 222px 109px rgba(0, 0, 0, 0.07);
+    background-color: mintcream;
+}
+
+#selection label{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+label{
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label :hover{
+    background-color: rgba(246, 246, 246, 0.587);
+}
+#adi, #sub, #mult, #divi{
+    cursor: pointer;
+
+}
+
+#instruction{
+    position: absolute;
+    left: 18%;
+    text-align: center;
+
+}
+
+#selection input[type="radio"]{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #5000ca;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+#selection input[type="radio"]:checked {
+    background-color: #5000ca;
+  }

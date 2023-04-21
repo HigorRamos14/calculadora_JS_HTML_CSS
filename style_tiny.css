@@ -66,6 +66,7 @@ button:hover{
 }
 
 #selection{
+    align-items: end;
     position: absolute;
     top: 60%;
     left: 7%;

@@ -19,7 +19,7 @@ body{
 }
 p {
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 130px;
@@ -68,7 +68,7 @@ button:hover{
 #selection{
     align-items: end;
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 7%;
     border: 2px solid  mintcream;
     border-radius: 15px;
@@ -105,7 +105,7 @@ label :hover{
 
 #instruction{
     position: absolute;
-    left: 18%;
+    left: 10%;
     text-align: center;
 
 }
